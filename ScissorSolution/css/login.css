@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.holding-cont{
+    position:relative;
+    width: 450px;
+    height: auto;
+    /* border */
+    padding:80px;
+    margin-left: 350px;
+    background-color: #eaf3f5;
+    margin-top: 30px;
+}
+
+#log-text{
+    /* border: solid red; */
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.log-with{
+    /* border: solid red; */
+    width: 100%;
+    text-align: center;
+}
+
+.log-with img{
+    width: 12px;
+}
+
+#google-butt,#apple-butt{
+    background-color: #0065fe;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    padding: 8px;
+    margin: 10px;
+}
+
+#google-butt a, #apple-butt a{
+    text-decoration: none;
+    color: white;
+}
+
+.big-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.line-or{
+    /* text-align: center; */
+    border:solid 0.3px rgb(187, 179, 179);
+    width: 44%;
+}
+
+.line-two{
+    border: solid 0.3px rgb(187, 179, 179);
+    width: 44%;
+}
+
+#email-box{
+    border: 2px solid #0065fe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+#pass-box{
+    border: 2px solid #0065fe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#forgot{
+    float: right;
+    margin-right: 10px;
+}
+
+#forgot a{
+    text-decoration: none;
+    color: #0065fe;
+}
+
+#log-two{
+    width: 95%;
+    background-color: #0065fe;
+    padding: 10px;
+    margin: 13px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+#log-two a{
+    text-decoration: none;
+    color: white;
+    /* margin-top: 0px; */
+}
+
+.last-text{
+    text-align: center;
+    /* width: 80%;
+    margin-trim: ;
+    border: solid; */
+}
+
+#no-account{
+    margin-top: 10px;
+}
+
+#no-account a{
+    text-decoration: none;
+    color: #0065fe;
+}
+#by-sign{
+    margin-top: 20px;
+}
+
+#by-sign a{
+    color: grey;
+    text-decoration: none;
+}
