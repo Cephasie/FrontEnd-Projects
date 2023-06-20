@@ -1,15 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* box-sizing: border-box; */
 }
 
 .holding-cont{
     position:relative;
-    width: 450px;
+    width: 300px;
     height: auto;
-    /* border */
-    padding:80px;
-    margin-left: 350px;
+    /* border:solid; */
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    margin-left: 370px;
     background-color: #eaf3f5;
     margin-top: 30px;
 }
