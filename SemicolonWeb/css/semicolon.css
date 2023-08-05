@@ -1,9 +1,14 @@
 body{
     margin: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
     /* overflow:visible; */
 }
 .big-container{
+    width: 1400px;
     /* margin-left: 20px; */
 }
 
@@ -209,7 +214,7 @@ body{
 
 .comments{
     background-color: #FFEEEC;
-    border: solid;
+    /* border: solid; */
     width: auto;
     height: 400px;
     display: flex;
@@ -230,7 +235,7 @@ body{
     background: white;
     border-radius: 20px;
     padding: 10px;
-    border: solid;
+    /* border: solid; */
     width: 400px;
     margin: 20px;
     
@@ -240,7 +245,7 @@ body{
     background: white;
     border-radius: 20px;
     padding: 10px;
-    border: solid;
+    /* border: solid; */
     width: 400px;
     margin: 20px;
 }
@@ -249,7 +254,7 @@ body{
     background: white;
     border-radius: 20px;
     padding: 10px;
-    border: solid;
+    /* border: solid; */
     width: 400px;
     margin: 20px;
 }
@@ -258,7 +263,7 @@ body{
     background: white;
     border-radius: 20px;
     padding: 10px;
-    border: solid;
+    /* border: solid; */
     width: 400px;
     margin: 20px;
 }
@@ -331,7 +336,7 @@ body{
 }
 
 .facecard{
-    border:solid;
+    /* border:solid; */
     width: 200px;
     
 }
