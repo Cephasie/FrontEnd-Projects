@@ -1,0 +1,83 @@
+*{
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    border: 20px solid rgb(5, 5, 105);
+    border-style: outset;    
+}
+
+.intro{
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+.textBoxAdd, .textBoxSub, .textBoxMult{
+    display: flex;
+    margin: 10px;
+}
+
+#ad, #minus, #times{
+    border-radius: 10px;
+    margin: 1.5px;
+    color: red;
+    /* font-size: larger; */
+}
+
+#ad:hover, #minus:hover, #times:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+.textBoxAdd input, .textBoxSub input, .textBoxMult input {
+    width: 50px;
+    height: 4vh;
+}
+
+.lineOne{
+    display: flex;
+    margin-left: 5px;
+}
+
+.lineOne h3{
+    margin-top: 20px;
+    color: red;
+}
+#selectTag{
+    margin-top: 16px;
+    margin-left:80px;
+    color: red;
+    font-size: large;
+    width: 100px auto;
+    height: 5vh;
+}
+
+.textBoxFibo, .textBoxFact{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+#fact, #fibo{
+    border-radius: 8px;
+    width: 50px;
+    height: 4vh;
+    margin: 1.5px;
+    color: red;
+}
+
+#fact:hover, #fibo:hover{
+    color: white;
+    background-color: blue;
+}

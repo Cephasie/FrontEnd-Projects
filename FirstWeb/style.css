@@ -1,0 +1,48 @@
+body{
+    /* background: url(../FirstWeb/images/background.jpg); */
+    /* background: url("background.jpg"); */
+    background-color: #b1acac;
+}
+.container{
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(16, 80%, 70%);
+    border: 5px grey solid;
+}
+em{
+    color: red;
+}
+/* #det{
+    color: aliceblue;
+} */
+
+h1{
+    text-shadow: 5px 0px 0px grey;
+}
+
+h1:hover{
+    color: blue;
+    /* box-shadow: 5px 0px 0px red; */
+}
+
+@keyframes myAni {
+    from {margin-left: 0%;}
+    to {margin-left: 100%;}    
+}
+
+/* @keyframes myAni {
+    50% {
+        transform: scale(0.5, 1);
+    }
+} */
+
+.scroll{
+    width: 1000px;
+    height: 200px;
+    overflow:hidden;
+    animation: myAni 100s linear infinite;
+}
+
+.scroll img{
+    animation-delay: 5s;
+}

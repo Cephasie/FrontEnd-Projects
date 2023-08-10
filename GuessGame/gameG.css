@@ -1,0 +1,21 @@
+*{
+    background-color: #14315e;
+}
+
+.contain{
+    /* background-color: #abc0df; */
+    width: 80%;
+    font-size: xx-large;
+    /* border: solid; */
+}
+.contain h1{
+    color: #F9CC0B;
+}
+#guess{
+    width: 50px;
+    height: 5vh;
+}
+#guessNo{
+    width: 10vw;
+    height: 5vh;
+}

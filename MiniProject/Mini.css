@@ -1,0 +1,60 @@
+.miniContainer{
+    background:  url(../MiniProject/photo/background.jpg); 
+    margin: auto;
+    width: 900px;
+}
+
+/* .glass {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 4px;
+} */
+
+.glass::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(228, 51, 51, 0.5);
+    filter: blur(400px);
+}
+
+.bigCon{
+    background-color: #062677;
+    padding: 50px;
+    width: 400px;
+    margin: auto;
+    border-radius: 600px;
+}
+#get1{
+    font-family:cursive;
+    border: navy;
+    align-items: flex-start;
+    text-decoration: wavy;
+    color: rgb(53, 43, 87);
+    text-align: center;
+}
+
+#get2{
+    color: rgb(212, 213, 213);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+#getButton{
+    background-color: 274699(212, 213, 213);
+    text-align: center;
+    margin-bottom: 50px;
+}
+#getButton button:hover{
+    background-color: rgb(7, 16, 133);
+    color: rgb(7, 7, 73);;
+}
+.hrL{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: rgb(212, 213, 213);
+}

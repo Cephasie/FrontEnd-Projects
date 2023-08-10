@@ -4,6 +4,20 @@
     /* box-sizing: border-box; */
 }
 
+body{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_container{
+    width: 1400px;
+    margin-left: 5%;
+}
+
 .holding-cont{
     position:relative;
     width: 300px;
@@ -45,6 +59,11 @@
     margin: 10px;
 }
 
+#pTag{
+    color: red;
+    font-size: smaller;
+}
+
 #google-butt a, #apple-butt a{
     text-decoration: none;
     color: white;
@@ -67,7 +86,7 @@
     width: 44%;
 }
 
-#email-box{
+#userName{
     border: 2px solid #0065fe;
     border-radius: 5px;
     padding: 10px;
@@ -76,15 +95,25 @@
     margin-top: 20px;
 }
 
-#pass-box{
+#emailBox{
     border: 2px solid #0065fe;
     border-radius: 5px;
     padding: 10px;
     width: 90%;
     margin-left: 13px;
-    margin-bottom: 20px;
     margin-top: 20px;
 }
+
+#passBox, #passBoxRe{
+    border: 2px solid #0065fe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 13px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
 
 #forgot{
     float: right;
@@ -99,6 +128,7 @@
 #log-two{
     width: 95%;
     background-color: #0065fe;
+    color: white;
     padding: 10px;
     margin: 13px;
     border: none;
@@ -106,11 +136,11 @@
 
 }
 
-#log-two a{
+/* #log-two a{
     text-decoration: none;
     color: white;
     /* margin-top: 0px; */
-}
+} */
 
 .last-text{
     text-align: center;

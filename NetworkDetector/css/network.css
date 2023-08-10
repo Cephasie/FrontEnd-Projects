@@ -1,0 +1,10 @@
+body{
+    background-color: red;
+    animation: jet infinite 2s 1s infinite;
+}
+
+@keyframes jet{
+
+}
+
+.

@@ -1,0 +1,172 @@
+*{
+    width: auto;
+    padding: 3px;
+
+}
+body{
+    width: 350px;
+    margin: auto;
+
+    /* width: 375px;
+    height: 812px;
+    top: -407px;
+    left: 251px; */
+    /* padding-left: 25%; */
+    /* border: solid;
+    width: 768px; */
+}
+.container{
+    padding-top: 0px;
+    position: absolute;
+    background-image: url(../assets/images/Map.png);
+    border-radius: 30px;
+    border: 4px solid;
+    border-style:ridge;
+    width: 375px;
+    height: 800px;
+    /* text-align:center; */
+    /* width: 300px; */
+}
+.billboard{
+    display: flex;
+    align-items:center;
+    margin-top: -20px;
+
+    /* position: absolute; */
+    /* width: 375px; */
+    /* height: 44px; */
+    /*left: 0px;
+    top: 0px; */
+}
+
+.statusBar{
+    margin-left: 225px;
+    /* margin-top: -45px; */
+    /* padding-right: ; */
+}
+
+.time{
+    padding-left: 8px;
+    /* margin-top: -40px; */
+}
+
+input[type=search]{
+    margin-top: -55px;
+    width: 360px;
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 38px;
+    position: relative;
+    box-shadow: 0px 3px 3px 0px gray;;
+    /* background-color: black;*/
+    /* width: 327px; */
+    /*top: 44px;*/
+    /* left: 24px; */
+
+    /*width; 327px;
+    height: 49px
+    top: 44px;
+    */
+}
+
+.bigstore{
+    position: relative;
+    border-radius: 15px;
+    width: 320px;
+    height: 220px;
+    margin-top: 430px;
+    margin-left: 23px;
+    
+    /* margin-top: 400px; */
+    /* height: 90px; */
+}
+.Johns{
+    display: flex;
+    margin-bottom: -40px;
+    /* background: white; */
+}
+
+.Johns h2{
+    margin-left: 3px;
+    font-size: large;
+}
+.store{
+    background-color: white;
+    /* width: 20vw; */
+}
+
+.direction{
+    display: flex;
+    background-color: #ececfa;
+    margin-right: 40px;
+    border-radius: 10px;
+    width: 50vw;
+}
+.best{
+    color: #5F5AF7;
+    background-color: white;
+    border: solid #5F5AF7;
+    height: 3.5vh;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 15px;
+    margin-bottom: -20px;
+    position: relative;
+    text-align: center;
+    /* margin-bottom:  */
+        /* margin-bottom: 60px; */
+    /* border-radius: 2px; */
+    /* height: 17px; */
+}
+
+.best p{
+    margin-top: 0px;
+    /* position: absolute; */
+    /* padding-bottom: 10px; */
+}
+/* .rating{
+    margin: 0px;
+    padding: 0px;
+} */
+.store p {
+    margin: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+}
+
+.num{
+    border-radius: 10px;
+    background-color: #5F5AF7;
+    color: white;
+    margin-left: 75px;
+}
+
+.contact{
+    margin-top: 60px;
+    margin-left: 5px;
+    height: 5vh;
+    display: flex;
+    /* background-color: #ececfa; */
+    
+}
+.direct h4{
+    margin-top: 0px;
+    text-align: center;
+}
+.num h5{
+    margin-top: 0px;
+}
+.store{
+    height: 220px;
+    border-radius: 10px;
+    /* border: solid red; */
+
+}
+
+    .home{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    position: relative;
+    /* margin-top: 0px; */
+}

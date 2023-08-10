@@ -1,0 +1,15 @@
+.demo{
+    /* display: flexbox; */
+    display: flex;
+    /* flex-direction: column; */
+    width: auto;
+    border: solid;
+    margin: auto;
+}
+.demo1{
+    margin: auto;
+}
+
+.demo2{
+    margin-right: auto;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+        margin: 30px 0 40px 0;
+      }
+      .container {
+        margin: 0 auto;
+        padding-left: 60px;
+        width: 100vw;
+        height: 100vh;
+      }
+      .textbox {
+        position: relative;
+        width: 350px;
+        float: left;
+        background-color: lightgrey;
+        margin: 10px 20px;
+        border: 2px solid black;
+      }
+      h3 {
+        position: absolute;
+        right: 0;
+        border: 1px solid black;
+        text-align: center;
+        width: 100px;
+      }
+
+      .clear-fix {
+        clear: both;
+      }
+      .pink {
+        background-color: pink;
+      }
+      .red {
+        background-color: red;
+        color: white;
+      }
+      .sand {
+        background-color: burlywood;
+      }
+      p {
+        padding: 10px;
+        margin: 20px 0;
+      }
+      @media (min-width: 768px) and (max-width: 992px) {
+        .textbox:last-child {
+          width: 82%;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .container {
+          margin: auto 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Menu</h1>
+
+    <div class="container">
+      <div class="textbox">
+        <h3 class="pink">Chicken</h3>
+
+        <p class="clear-fix">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+          corporis assumenda ex veniam suscipit labore architecto vel fugiat
+          molestias illo corrupti commodi quaerat nemo, harum alias molestiae
+          culpa excepturi et!
+        </p>
+      </div>
+      <div class="textbox">
+        <h3 class="red">Beef</h3>
+
+        <p class="clear-fix">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+          corporis assumenda ex veniam suscipit labore architecto vel fugiat
+          molestias illo corrupti commodi quaerat nemo, harum alias molestiae
+          culpa excepturi et!
+        </p>
+      </div>
+
+      <div class="textbox">
+        <h3 class="sand">sushi</h3>
+
+        <p class="clear-fix">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+          corporis assumenda ex veniam suscipit labore architecto vel fugiat
+          molestias illo corrupti commodi quaerat nemo, harum alias molestiae
+          culpa excepturi et!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

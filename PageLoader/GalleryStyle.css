@@ -1,0 +1,18 @@
+.reels {
+    display: flex;
+    height: 20rem;
+    gap: 1rem
+}
+
+.reels>div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reels>div:hover {
+    flex: 5;
+}

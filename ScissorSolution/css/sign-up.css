@@ -1,0 +1,39 @@
+
+
+.biggy-cont{
+   width: 1400px;
+   margin-left: 5%;
+
+}
+
+#userNameSignUp {
+    border: 2px solid #0065fe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+#emailBoxSignUp {
+    border: 2px solid #0065fe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+#passBoxSignUp, #passBoxReSignUp {
+    border: 2px solid #0065fe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 13px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#pTagSign{
+    color: red;
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainContainer {
+    width: 40%;
+    border: 20px solid rgb(3, 3, 65);
+    border-style:outset;
+    border-radius: 50px;
+    background: rgb(64, 76, 97);
+    margin: 250px auto;
+}
+
+.innerContainer {
+    width: inherit;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.innerContainer h1{
+    text-align: center;
+    font-size: 50px;
+    width: 500px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.areaForGuessing input {
+    border-radius: 50%;
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.areaForGuessing {
+    display: flex;
+}
+
+.areaForGuessing h2 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.areaForGuessing button {
+    width: 300px;
+    height: 102px;
+    border: 1px solid red;
+    margin-left: 50px;
+}
+
+.myGuess {
+    border-radius: 50%;
+    font-size: 25px;
+    color: rgb(7, 90, 245);
+    /* width: ; */
+}
+
+.myGuess:hover{
+    transform: scale(1.7);
+    color: red;
+    background-color: darkblue;
+}
+
+.playOrQuit {
+    display: flex;
+    margin-top: 20px;
+}
+
+.play button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.myPlay {
+    border-radius: 50%;
+    font-size: 25px;
+    color: rgb(7, 90, 245);
+}
+
+.myPlay:hover{
+    transform: scale(1.7);
+    color: red;
+    background-color: darkblue;
+}
+
+/* .myPlay:focus{
+    color: black;
+} */
+
+.quit button {
+    width: 200px;
+    margin-left: 105px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.myQuit {
+    font-size: 25px;
+    color: rgb(7, 90, 245);
+    border-radius: 50%;
+}
+
+.myQuit:hover{
+    transform: scale(1.7);
+    color: red;
+    background-color: darkblue;
+}
+.result {
+    margin-top: 40px;
+}
+
+.p-tag {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    /* margin-left: 200px; */
+    width: 500px;
+}

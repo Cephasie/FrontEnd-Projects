@@ -6,15 +6,16 @@
     <title>log-in|Scissor</title>
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/scissor.css">
+    <script src="../js/login.js" defer></script>
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     
 </head>
 <body>
     
-    <!-- <div class="main_container">
-        <div class="main_inner_container"> -->
+    <div class="main_container">
+        <!-- <div class="main_inner_container"> -->
         <div class="holding-cont">
-            <form action="">
+            
                 <p id="log-text"> Log in with:</p>
                 <div class="log-with">
                     <button id="google-butt"><img src="../asset/images/logo_googleg_48dp.png" alt=""><a href="https://www.google.com">Google</a></button>
@@ -28,11 +29,13 @@
                     <div class="line-two"></div>
                 </div>
 
-                <input type="email" placeholder="Email address or username" id="email-box" required>
-                <input type="password" placeholder="Password" id="pass-box" required>
+            <form action="validateLogInForm()">
+                <input type="text" placeholder="Email address" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}" id="emailBox" required>
+                <input type="password" placeholder="Password" pattern="[a-zA-Z0-9]"  id="passBox" minlength="8" maxlength="10" required>
+                <p id="pTag"></p>
             
                 <p id="forgot"><a href="https://www.google.com">Forgot your password?</a></p>
-                <button id="log-two"><a href="../html/index.html">Log in</a></button>
+                <button id="log-two" onclick="validateLogInForm()">Log in</button>
             </form>
 
         
@@ -139,7 +142,7 @@
 
             </div>           
         </footer>
-    <!-- </div>
-    </div> -->
+    </div>
+    <!-- </div> -->
 </body>
 </html>

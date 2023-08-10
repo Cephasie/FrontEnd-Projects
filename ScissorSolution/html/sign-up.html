@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="../css/sign-up.css">
     <link rel="stylesheet" href="../css/scissor.css">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/sign-up.js" defer></script>
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
    
 </head>
 <body>
+    <div class="biggy-cont">
     <div class="holding-cont">
-        <form action="">
         <p id="log-text"> Log in with:</p>
         <div class="log-with">
             <button id="google-butt"><img src="../asset/images/logo_googleg_48dp.png" alt=""><a href="https://www.google.com" target="_blank">Google</a></button>
@@ -27,13 +28,15 @@
         </div>
 
         <!-- <div class="text-boxx"> -->
-            <input type="text" placeholder="Username" id="email-box" minlength="10" required>
-            <input type="email" placeholder="Email" id="email-box" required>
-            <input type="password" placeholder="Password" id="pass-box" minlength="8" required>
-            <input type="password" placeholder="Retype password" id="pass-box" minlength="8" required>
-            
+        <form id="form" action="validateSignUpForm()">
+            <input type="text" placeholder="Username" id="userNameSignUp" maxlength="8" required>
+            <input type="email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}" id="emailBoxSignUp" required>
+            <input type="password" placeholder="Password" id="passBoxSignUp" pattern="[a-zA-Z0-9]" minlength="8" required>
+            <input type="password" placeholder="Retype password" id="passBoxReSignUp" pattern="[a-zA-Z0-9]" minlength="8" required>
+            <p id="pTagSign"></p>
+
             <p>6 or more characters, one number, one uppercase/lowercase</p>
-            <button id="log-two"><a href="../html/index.html">Sign up with Email</a></button>
+            <button id="log-two" onclick="validateSignUpForm(event)">Sign up with Email</button>
         </form>
 
         
@@ -142,5 +145,6 @@
             
 
         </footer>
+    </div>
 </body>
 </html>

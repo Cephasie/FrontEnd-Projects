@@ -1,0 +1,64 @@
+.b1{
+    background: rgb(103, 238, 238);
+    width: 400px;
+    height: 250px;
+    font-size: 100px;
+    border: 10vh solid rgb(39, 4, 4);
+    border-style: outset;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 5px 5px 5px tomato;
+    
+    animation: myAni; /*myNameRotate; myScale; myOpacity; myColorChange; */
+    animation-duration: 20s;
+    animation-iteration-count:infinit;
+    /* animation-delay: 1s; */
+
+}
+/* #b1:hover{
+    animation: myAni;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+} */
+
+/* @keyframes myAni{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+} */
+
+@keyframes myAni {
+    from {
+        transform:rotate(0deg);
+        }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes myNameRotate{
+    100%{transform: rotateY(360deg);}
+    100% {transform: rotateZ(360deg);}
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+@keyframes myScale{
+    50%{transform: scale(0.5, 1);}
+}
+
+/* @keyframes myColorChange{
+    20%{color: aliceblue; background-color: brown;}
+    40%{color: red; background-color: black;}
+    60%{color: yellow; background-color: aqua;}
+    80%{color: green;}
+    100%{color: orange;} */
+/* } */
+
+
+/* h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px tomato;
+} */
